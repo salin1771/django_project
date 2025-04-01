@@ -153,19 +153,3 @@ python manage.py test
    http://localhost:8000/admin/
    ```
 
-## License
-
-MIT License
-```
-
-### Key Notes:
-1. Replace placeholder values (GitHub URL, license) with your actual project info
-2. The SQL schema matches your Django model definitions
-3. Includes both development (SQLite) and production (PostgreSQL) considerations
-4. Customize the API endpoint descriptions as needed
-
-Would you like me to add any specific sections like:
-- Deployment instructions
-- Environment variables configuration
-- API documentation examples
-- Screenshots of the admin interface?
