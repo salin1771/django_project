@@ -1,4 +1,4 @@
-Here's a comprehensive `README.md` file for your Credit Service project using Python with SQL (SQLite/PostgreSQL):
+
 
 ```markdown
 # Credit Service System
@@ -16,11 +16,11 @@ A Django-based loan management system with credit scoring, billing, and payment 
 
 ## Technology Stack
 
-- **Backend**: Python 3.6+
-- **Database**: SQLite (Development) / PostgreSQL (Production)
-- **Framework**: Django 3.2.11
-- **Task Queue**: Celery 5.3.6
-- **Caching**: Redis 4.3.6
+- Backend: Python 3.6+
+- Database: SQLite (Development) / PostgreSQL (Production)
+- Framework: Django 3.2.11
+- Task Queue: Celery 5.3.6
+- Caching: Redis 4.3.6
 
 ## Database Schema (SQL)
 
