@@ -148,6 +148,11 @@ python manage.py test
    python manage.py createsuperuser
    ```
 
+   ![Screenshot 2025-04-01 181800](https://github.com/user-attachments/assets/a9c9c6ca-13b0-4f24-ba5e-d1fbb7aa95d7)
+![Screenshot 2025-04-01 181812](https://github.com/user-attachments/assets/e51b5169-c702-4a6b-a5df-d5e21b06eab1)
+
+
+
 2. Access admin panel at:
    ```
    http://localhost:8000/admin/
