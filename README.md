@@ -65,7 +65,7 @@ CREATE TABLE loans (
 1. **Clone the repository**
    ```bash
    git clone https://github.com/salin1771/django_project.git
-   cd credit-service
+   cd credit_service
    ```
 
 2. **Set up virtual environment**
