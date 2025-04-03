@@ -1,0 +1,4 @@
+Django==3.2.11
+celery==5.3.6
+redis==4.3.6
+psycopg2-binary>=2.9.3  # For PostgreSQL support
