@@ -1,11 +1,8 @@
-
-
-```markdown
-# Credit Service System
+Credit Service System
 
 A Django-based loan management system with credit scoring, billing, and payment processing.
 
-## Features
+Features
 
 - User registration with Aadhar verification
 - Credit score calculation from transaction history
@@ -14,7 +11,7 @@ A Django-based loan management system with credit scoring, billing, and payment 
 - Automated billing system
 - Admin dashboard
 
-## Technology Stack
+Technology Stack
 
 - Backend: Python 3.6+
 - Database: SQLite (Development) / PostgreSQL (Production)
@@ -22,7 +19,7 @@ A Django-based loan management system with credit scoring, billing, and payment 
 - Task Queue: Celery 5.3.6
 - Caching: Redis 4.3.6
 
-## Database Schema (SQL)
+Database Schema (SQL)
 
 ```sql
 -- Users Table
@@ -36,7 +33,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Transactions Table
+Transactions Table
 CREATE TABLE transactions (
     id SERIAL PRIMARY KEY,
     aadhar_id VARCHAR(12) NOT NULL,
@@ -46,7 +43,7 @@ CREATE TABLE transactions (
     FOREIGN KEY (aadhar_id) REFERENCES users(aadhar_id)
 );
 
--- Loans Table
+Loans Table
 CREATE TABLE loans (
     id UUID PRIMARY KEY,
     user_id UUID NOT NULL,
