@@ -22,7 +22,7 @@ Technology Stack
 Database Schema (SQL)
 
 ```sql
--- Users Table
+Users Table
 CREATE TABLE users (
     id UUID PRIMARY KEY,
     aadhar_id VARCHAR(12) UNIQUE NOT NULL,
